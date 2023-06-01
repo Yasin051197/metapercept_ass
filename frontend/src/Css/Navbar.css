@@ -1,0 +1,24 @@
+#Navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin-top: 2%;
+}
+#Navbar_child1{
+    text-align: left;
+    width: 60%;
+}
+#Navbar_child2{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+#Navbar_child2 button{
+    border: 1px solid rgb(99, 99, 239);
+    color:rgb(99, 99, 239) ;
+    padding: 4px;
+    border-radius: 2px;
+}

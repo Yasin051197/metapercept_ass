@@ -1,0 +1,61 @@
+#banner{
+    width: 80%;
+    height: 300px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgb(112, 112, 218);
+}
+#banner p{
+    color: white;
+}
+#title{
+    font-size: 25px;
+    font-weight: 400;
+}
+#para{
+    width: 60%;
+    margin: auto;
+}
+#banner button{
+    margin-top: 15px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 3px;
+    padding: 4px;
+}
+#class_title{
+    font-size: 25px;
+    font-weight: 400;
+}
+#cards{
+    width: 80%;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#cards div{
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#cards div img{
+    width: 100%;
+}
+#footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#footer div{
+    padding: 20px;
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
